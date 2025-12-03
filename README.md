@@ -124,6 +124,22 @@ It is a clean and simple implementation suitable for learning and academic submi
 
 ---
 
+🔁 Difference from Original Problem Statement
+
+The original requirement mentioned sending data using WebSockets.
+In this project, I used TCP sockets instead of WebSockets because:
+
+TCP is simpler to implement in C
+
+TCP still satisfies the requirement of sending data between two programs
+
+The focus of the project (CSV handling, sorting, searching, performance measurement) remains fully covered
+
+TCP provides reliable data transmission, similar to WebSockets
+
+The remaining functionalities — data loading, menu operations, sending/receiving CSV, and performance statistics — were implemented completely.
+
+
 ## ✨ Author
 
 **Kavana Naik**
