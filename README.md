@@ -11,7 +11,7 @@ This project is a simple **Student Record Management System** that can:
 
 ---
 
-## 📌 Features
+## Features
 
 ### **1. Core Student Operations**
 
@@ -27,9 +27,9 @@ This project is a simple **Student Record Management System** that can:
 
 ---
 
-## 🛠️ How to Run the Project
+## How to Run the Project
 
-### ✔️ **1. Start the Receiver (Terminal 1)**
+### **1. Start the Receiver (Terminal 1)**
 
 ```
 ./receiver
@@ -41,7 +41,7 @@ You should see:
 Server started... waiting for connection...
 ```
 
-### ✔️ **2. Run the Sender (Terminal 2)**
+### **2. Run the Sender (Terminal 2)**
 
 ```
 ./sender
@@ -69,7 +69,7 @@ Data received and saved to received.csv
 
 ---
 
-## 📁 Input File
+## Input File
 
 The sender reads student data from:
 
@@ -86,7 +86,7 @@ Example format:
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 Measured in the program:
 
@@ -101,7 +101,7 @@ These results are printed in the terminal after execution.
 
 ---
 
-## 📦 Tools Used
+## Tools Used
 
 * **C Language**
 * **TCP Sockets** (sender & receiver)
@@ -110,7 +110,7 @@ These results are printed in the terminal after execution.
 
 ---
 
-## 📘 Summary
+## Summary
 
 This project demonstrates:
 
@@ -124,7 +124,7 @@ It is a clean and simple implementation suitable for learning and academic submi
 
 ---
 
-🔁 Difference from Original Problem Statement
+Difference from Original Problem Statement
 
 The original requirement mentioned sending data using WebSockets.
 In this project, I used TCP sockets instead of WebSockets because:
